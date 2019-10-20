@@ -1,3 +1,21 @@
+Requirements
+
+1. Python (3.7 or greater) and pip
+    <https://www.python.org/downloads/windows/>
+
+2. Teraterm
+    <https://filehippo.com/download_tera_term/>
+
+3. Python packages
+    pip install esptool.py
+    pip install adafruit-ampy
+
+4. CP210x driver
+    <https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers>
+
+5. Micropython firmware
+    <http://micropython.org/download>
+
 Burning Bootloader
 
 1. Erase existing flash
@@ -15,17 +33,11 @@ Basic Commands
 1. Chip id
     esptool.py -p PORT chip_id 
 
-2. Verify flash
-    esptool.py -p PORT verify_flash
-
-3. Hello World
+2. Hello World
     print("Hello World")
 
-4. Check firmware
+3. Check firmware
     import esp
     esp.check_fw()
     esp.hall_sensor()
     esp.raw_temperature()
-
-5. 
-
