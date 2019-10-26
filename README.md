@@ -1,12 +1,12 @@
 # Requirements
 
 1. Python (3.7 or greater) and pip
-        
-       <https://www.python.org/downloads/windows/>
+    
+    <https://www.python.org/downloads/windows/>
 
 2. Teraterm
         
-       <https://filehippo.com/download_tera_term/>
+    <https://filehippo.com/download_tera_term/>
 
 3. Python packages
     ```bash
@@ -16,11 +16,11 @@
 
 4. CP210x driver
         
-       <https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers>
+    <https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers>
 
 5. Micropython firmware
         
-       <http://micropython.org/download>
+    <http://micropython.org/download>
 
 # Burning Bootloader
 
